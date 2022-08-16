@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(68, 87, 208);
+    font-family: monospace;
+    letter-spacing: 1px;
+}
+
+h1 {
+    color: black;
+    font-size: 4rem;
+    font-family: Sans-Serif;
+    font-weight: 600;
+}
+
+p {
+    color: black;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+li {
+    color: black;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    text-align: center;
+    list-style-position: inside;
+}
+
+body {
+    padding: 10px;
+    font-family: monospace;
+    letter-spacing: 1px;
+}
+
+h1 {
+    padding: 10px;
+}
+
+p {
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    padding: 10px;
+}
+
+.copyright {
+    font-size: 1rem;
+    text-align: start;
+}
+
+.copyright a {
+    color: darkorchid;
+    font-style: italic;
+}
