@@ -72,6 +72,9 @@
     }
     
     @media (max-width: 600px) {
+        .grid-list {
+            gap: 0px;
+        }
         .grid-item {
             grid-column: 1;
         }
