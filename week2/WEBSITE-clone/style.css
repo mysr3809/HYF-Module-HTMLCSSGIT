@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 10px 70px;
+    background-color: black;
+    color: white;
+}
+
+.navbarLeft {
+    display: flex;
+}
+
+.leftList {
+    display: flex;
+}
+
+.leftList li {
+    list-style-type: none;
+}
+
+.nav-item {
+    margin: 0 5px;
+    padding: 0 5px;
+}
+
+.nav-link {
+    border-radius: 30px;
+}
+
+.navbar .nav-item:not(.dropdown) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbarColor {
+    background-color: black;
+}
+
+.dropdown-item {
+    color: rgb(163, 163, 163) !important;
+}
+
+.dropdown-item:hover {
+    color: black !important;
+    transition: 0.5s;
+}
+
+.dropdown-toggle {
+    border-radius: 30px;
+}
+
+.dropdown-toggle:hover {
+    background-color: rgb(55, 54, 54);
+    border-radius: 30px;
+}
+
+.iconWorld {
+    transform: rotateZ(315deg);
+}
+
+.productIcon {
+    padding: 1px;
+}
+
+.signUp {
+    background-color: white;
+    color: black !important;
+    border-radius: 30px;
+}
+
+.signUp:hover {
+    background-color: rgb(205, 201, 201);
+}
+
+.bgGreyHover:hover {
+    background-color: rgb(55, 54, 54);
+    border-radius: 30px;
+}
+
+.mainImage {
+    width: 100vw;
+    background-image: url(https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_2880,h_1334/v1653688465/assets/29/74ec2f-a727-47e1-9695-c78f8dadee5f/original/DotCom_Update_Earner_bg2x.jpg);
+    height: 88vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.mainContainerBox {
+    width: 570px;
+    height: 520px;
+    padding: 0px !important;
+    background-color: white;
+    position: absolute;
+    left: 10%;
+    top: 17%;
+}
+
+.mainContainerHeader {
+    width: 100%;
+    height: 25%;
+    background-color: #f1f3f3;
+    border-bottom: 1px solid #d2cece;
+    justify-content: space-evenly;
+}
+
+.mainFirstBox,
+.mainSecondBox,
+.mainThirdBox {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mainFirstBox:hover,
+.mainSecondBox:hover,
+.mainThirdBox:hover {
+    border-bottom: 3px solid black;
+}
+
+.mainFirstBox i,
+.mainSecondBox i,
+.mainThirdBox i {
+    padding: 20px;
+}
+
+.mainContainerHeader {
+    display: flex;
+}
+
+.mainContainer {
+    padding: 50px;
+}
+
+.mainContainer h1 {
+    font-size: 3.3rem;
+    padding-bottom: 10px;
+}
+
+.mainContainer p {
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+
+.mainContainer .secondP:hover {
+    border-bottom: 1px solid black;
+    transition: 0.2s;
+}
+
+.fixedButton {
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    background-color: black;
+    position: fixed;
+    border-radius: 50%;
+}
+
+.fixedButton i {
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 50%);
+}
+
+.fixedButton:hover {
+    cursor: pointer;
+}
+
+
+/*-----JUMBOTRON-------*/
+
+.jumbotron {
+    background: url("https://www.uber-assets.com/image/upload/v1613522699/assets/28/5b0222-7869-4658-b2ca-80a3890a2b69/original/DotCom_Update_U4B_bg_ipad.png");
+    background-position: center right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+    line-height: 50px;
+}
+
+.btn-dark {
+    background-color: black !important;
+}
+
+.jumbotron .btn-dark:hover {
+    background-color: rgb(48, 47, 47) !important;
+}
+
+
+/*-----FOCUSED ON SAFETY------*/
+
+.card {
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.card-img,
+.card-img-top {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.container {
+    width: 80% !important;
+}
+
+.card .card-body {
+    padding: 1rem 0rem !important;
+}
+
+span {
+    display: inline-block;
+    background-image: linear-gradient(black, black);
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s;
+    margin: 5px 0;
+}
+
+.fromLeft {
+    background-position: 0 calc(100% - 0px);
+    border-bottom: 1px solid rgb(198, 194, 194);
+}
+
+span:hover {
+    background-size: 100% 2px;
+}
+
+
+/*----------Introduction 2-------*/
+
+.containerIntroduction2 {
+    width: 80%;
+    margin: auto;
+}
+
+.introduction2Second {
+    float: right;
+}
+
+.cardProps {
+    border: 1px solid hsla(0, 0%, 0%, 0.12) !important;
+}
+
+.rowWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    position: relative;
+    float: right;
+    left: 10px;
+    top: 10px;
+}
+
+.arrow:hover {
+    animation: slide 1s ease-in-out;
+    margin-left: 9px;
+}
+
+@keyframes slide {
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(10px, 0);
+    }
+}
+
+
+/*--------SIGN UP---------*/
+
+.signUpLaterContent {
+    margin: auto;
+    width: 80%;
+    background-color: white;
+    display: grid;
+    align-items: center;
+}
+
+.signUpLaterContent .signUpText {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.signUpContainer.left {
+    border-bottom: 1px solid black;
+    padding: 0;
+}
+
+.signUpContainer.right {
+    border-bottom: 1px solid black;
+    padding: 0;
+    margin-left: 35px;
+}
+
+.signUpContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUpIcon {
+    float: right;
+}
+
+
+/*---------FOOTER-------*/
+
+.footerContent {
+    width: 100vw;
+    background-color: black;
+}
+
+.topFooterContent,
+.footerLists {
+    width: 80%;
+    margin: auto !important;
+}
+
+.footerList ul {
+    font-size: 1.1rem;
+    padding-left: 0;
+    list-style: none !important;
+}
+
+.footerList ul li {
+    padding-top: 12px;
+    font-size: 0.9rem;
+}
+
+.footerList ul li a:hover {
+    color: rgb(138, 135, 135);
+}
+
+.footerList ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.topFooterContent img {
+    width: 10%;
+}
+
+.footerTitleText {
+    font-size: 0.8rem;
+    text-align: end;
+}
+
+.footerIcons {
+    width: 80%;
+    margin: auto;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialIcons {
+    position: relative;
+}
+
+.socialIcons i:hover {
+    background-color: rgb(80, 79, 79);
+    cursor: pointer;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.socialIcons .iconWorld {
+    margin-left: 20px;
+}
+
+.iconThird img {
+    width: 120px;
+}
+
+.iconThird:hover {
+    cursor: pointer;
+}
+
+.footerBottom {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #8e8a8a;
+    font-size: 0.8rem;
+}
+
+.footerBottom ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.footerBottom ul li {
+    margin: 0 5px;
+}
+
+.footerBottom ul li:hover {
+    cursor: pointer;
+    color: rgb(73, 72, 72);
+}
+
+@media(max-width:900px) {
+    .mainContainerBox {
+        width: 100%;
+        top: 60px;
+        left: 0;
+    }
+    .signUpContainer.right {
+        margin-left: -12px;
+    }
+}
